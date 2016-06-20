@@ -1,0 +1,15 @@
+.scroll-content {
+	background: #f7f7f7 !important;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 668px;
+}	
+.bar.bar-light .title {
+	color: #387ef5 !important;
+}
+.loader {
+	background: url(../img/loader.gif) no-repeat 50% 50%;
+	min-height: 35px;
+}

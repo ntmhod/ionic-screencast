@@ -1,0 +1,26 @@
+
+
+<ion-view title="ICON">
+  <ion-content padding="true" class="manual-remove-top-padding has-header">
+  
+  <div class="wrapper">
+    <div class="list card" ng-repeat="item in list_data" ui-sref="video({ id: item.id})">
+
+  <div class="item item-text-wrap">
+    <h1 class="positive">{{ item.title }}</h1>
+    <p>{{ item.description }}</p>
+  </div>
+
+  <div class="item item-image loader">
+    <img ng-src="{{ item.imageSrc }}" alt="{{ item.title }}">
+  </div>
+
+  <div class="item item-icon-left positive">
+    <i class="icon ion-ios-videocam"></i>
+    Start watching
+  </div>
+</div>
+</div>
+  </ion-content>
+</ion-view>
+
